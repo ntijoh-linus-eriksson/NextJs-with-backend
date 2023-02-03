@@ -1,4 +1,4 @@
-// import PocketBase from 'pocketbase';
+// PocketBase from 'pocketbase';
 import Link from 'next/link';
 import styles from './Notes.module.css';
 import CreateNote from './CreateNote';
@@ -20,6 +20,7 @@ export default async function NotesPage() {
           return <Note key={note.id} note={note} />;
         })}
       </div>
+
       <CreateNote />
     </div>
   );
