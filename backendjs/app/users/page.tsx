@@ -30,7 +30,7 @@ function User({ user }: any) {
 
   return (
     <Link href={`/users/${id}`}>
-      <div className={styles.user}>
+      <div className={styles.note}>
         <h2>{name}</h2>
         <h5>{email}</h5>
         <h5>{password}</h5>

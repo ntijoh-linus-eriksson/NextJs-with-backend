@@ -29,6 +29,12 @@ export default function CreateUser() {
       }),
     });
 
+    setName('')
+    setEmail('')
+    setPassword('')
+    setPhoneNumber('')
+    setAdress('')
+
     router.refresh();
   }
 
@@ -66,7 +72,7 @@ export default function CreateUser() {
         onChange={(e) => setAdress(e.target.value)}
       />
       <button type="submit">
-        Create note
+        Register
       </button>
     </form>
   );

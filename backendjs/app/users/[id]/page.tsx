@@ -1,4 +1,4 @@
-import styles from '../Notes.module.css';
+import styles from '../../notes/Notes.module.css';
 
 async function getUser(userId: string) {
   const res = await fetch(
