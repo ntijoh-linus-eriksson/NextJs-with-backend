@@ -11,6 +11,8 @@ yarn dev
 # or
 pnpm dev
 ```
+./pocketbase serve   
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
