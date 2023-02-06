@@ -1,6 +1,6 @@
 // PocketBase from 'pocketbase';
 import Link from 'next/link';
-import styles from './Notes.module.css';
+import styles from '../notes.css';
 import CreateNote from './CreateNote';
 
 async function getNotes() {

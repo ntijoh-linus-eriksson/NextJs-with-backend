@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../notes/Notes.module.css';
+import styles from '../notes.css';
 import CreateUser from './CreateUser';
 
 async function getUsers() {
